@@ -1,0 +1,41 @@
+body{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: larger;
+}
+.form{
+    margin-top: 8rem;
+}
+#btn{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: lightgreen;
+    border: none;
+}
+#share{
+    border: none;
+    color:black;
+    padding: 1rem;
+    background-color: aquamarine;
+}
+#atag{
+    color: yellow;
+}
+#ptag{
+    font-family: verdana;
+    font-size: x-large;
+    color: violet;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #db1111,
+    1px 2px 1px #db1111,
+    1px 3px 1px #db1111;
+    animation: anime 3s infinite;
+}
+@keyframes anime{
+    0%{top: 0px;}
+    50%{top: 0px; color: yellow;}
+    100%{top: 0px;}
+
+}
